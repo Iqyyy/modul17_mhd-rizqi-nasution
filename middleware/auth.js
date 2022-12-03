@@ -10,7 +10,7 @@ const Auth = {
         // const token = req.cookies['token']
         //  const {token} = req.body
 
-         const token = req.cookies['token'] || req.body
+         const token = req.cookies['token'] || req.body.token
         
         console.log(JSON.stringify(token))
 
